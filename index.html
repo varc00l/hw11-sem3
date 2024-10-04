@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bank">
+        <h2>Bank Account</h2>
+        <p id="balance">Balance: 0</p>
+        <button onclick="bankAccount.deposit(100)">Поповнити рахунок (100)</button>
+        <button onclick="bankAccount.withdraw(50)">Отримати готівку (50)</button>
+    </div>
+
+    <div class="weather">
+        <h2>Weather</h2>
+        <input type="number" id="temperatureInput" placeholder="Enter temperature">
+        <button onclick="weather.checkTemperature()">Check Temperature</button>
+        <p id="weatherResult"></p>
+    </div>
+
+    <div class="user">
+        <h2>User Login</h2>
+        <input type="text" id="emailInput" placeholder="Enter email">
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <button onclick="user.login()">Login</button>
+        <p id="loginResult"></p>
+    </div>
+
+    <div class="movie">
+        <h2>Movie Details</h2>
+        <p id="movieTitle">Title: Inception</p>
+        <p id="movieDirector">Director: Christopher Nolan</p>
+        <p id="movieYear">Year: 2010</p>
+        <p id="movieRating">Rating: 8.8</p>
+        <button onclick="movie.checkRating()">Check Rating</button>
+    </div>
+      
+      
+      
+      
+
+    <script src="/script.js"></script>
+</body>
+</html>
